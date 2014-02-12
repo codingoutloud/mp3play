@@ -1,0 +1,41 @@
+﻿<a href="http://dev.w3.org/html5/markup/a.html">HTML 5 documentation on anchor tag</a>, including more options for link targets.
+
+<h2>MP3 Play</h2>
+
+Click to ALERT <a id="alert" title="Alerter" href="#" onclick="alert('hey'); return false;">pronounce Jinja</a>.
+Click to <a id="myLink" title="Pronounce" href="#" onclick="pronounce(); return false;">pronounce Jinja</a>.
+
+<script src="./soundmanager2.js"></script>
+<script>
+    soundManager.setup({
+        url: './',
+        onready: function () {
+            //alert('onready');
+            var mySound = soundManager.createSound({
+                id: 'aSound',
+                url: './fred.mp3'
+            });
+            console.log(mySound);
+            //alert(mySound.toSource());
+            //alert('onready 2');
+            //mySound.play();
+            //alert('onready 3');
+        },
+        ontimeout: function () {
+            alert('timeout');
+            // Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
+        }
+    });
+</script>
+
+<script>
+function pronounce() {
+            var mySound = soundManager.createSound({
+                id: 'aSound',
+                url: './fred.mp3'
+            });
+    mySound.play();
+}
+</script>
+<h2>Do this</h2>
+

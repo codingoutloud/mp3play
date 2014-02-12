@@ -1,0 +1,41 @@
+Options
+
+1. Quick Play, with Back Button
+- simple link (which will change the page)
+
+2. Quick Play Popup, with Close
+- target='_blank' with close to return
+
+Pop-up with JavaScript
+- can't put into WordPress.com blog
+- example: http://www.textfixer.com/html/javascript-pop-up-window.php
+- example: http://www.quirksmode.org/js/popup.html
+
+HTML 5 options
+- can't put into WordPress.com blog
+- example: http://www.w3schools.com/html/html_sounds.asp
+-          http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
+- WordPress.com removes media attribute from anchor tags
+-    explanation of media queries/attributes: http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/
+- example tags for anchors with a valid href: http://www.w3schools.com/tags/att_a_rel.asp
+-                 slightly more general list: http://www.w3.org/TR/html5/links.html#linkTypes
+-                          microformats list: http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions
+-                           microformats faq: http://microformats.org/wiki/rel-faq
+- http://www.stateofdigital.com/good-rel-attributes-beginners-guide/
+
+Third-party controls
+- favor Flash/Silverlight: http://mediaelementjs.com/
+- favor HTML5: http://www.schillmania.com/projects/soundmanager2/
+
+CSS options
+- won't have logic (like JavaScript) to do playing
+- not sure I can even have custom HTML (as with HTML 5 tags to auto-play)
+- example: https://gist.github.com/epoberezkin/4722580
+
+Use in-page anchor
+- not sure how this could help other than having some dedicated screen real estate 
+- example: http://www.w3schools.com/html/html_links.asp
+
+Other
+- http://ejohn.org/blog/html-5-data-attributes/
+- hreflang attribute in HTML5 - http://www.seerinteractive.com/blog/case-study-the-impact-of-hreflang-tag
